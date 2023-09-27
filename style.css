@@ -7,9 +7,27 @@ body{
 
 
 h1 { 
-    font-family: 'IBM Plex Sans', sans-serif; text-align: center;
-    font-size: 400%
+    font-family: 'IBM Plex Sans', sans-serif; 
+    text-align: center; 
+    font-weight: 400;
+    font-size: 68px
+
 }
 p {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif; text-align: justify;
+    font-size: 22px;
  }
+h2 { 
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+}
+h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px
+}
+
+blockquote { 
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-size: 25px;
+    font-style: italic;
+}
