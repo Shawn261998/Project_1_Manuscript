@@ -1,32 +1,91 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500&display=swap');
 
 body{
     color: rgb(7, 0, 44);
-    
 }
 
 h1 { 
-    font-family: 'IBM Plex Sans', sans-serif; 
-    text-align: center; 
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: left; 
     font-weight: 400;
-    font-size: 68px
-
+    font-size: 80px;
+    margin-bottom: 70px;
 }
-p {
-    font-family: 'IBM Plex Sans', sans-serif; text-align: justify;
-    font-size: 22px;
+
+.thin { 
+    font-weight: 100;
  }
+
+.author { 
+    text-align: left;
+    font-size: 32px;
+    padding: 40px 400px 40px 200px;
+}
+
+.subject {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 38px;
+    font-weight: 100;
+}
+
+.essence {
+    font-weight:bold
+}
+
+p {
+    font-family: 'IBM Plex Sans', sans-serif; text-align: left;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: left;
+ }
+
 h2 { 
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 36px;
+    font-size: 60px;
+    font-weight: lighter;
+    padding: 40px 400px 40px 200px;
 }
+
 h3 {
     font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 36px
+    font-size: 60px ; 
+    text-align: left;
+    padding: 40px 400px 40px 200px;
+    font-weight: 300;
 }
 
 blockquote { 
-    font-family: 'IBM Plex Sans', sans-serif; 
-    font-size: 25px;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-style: italic;
+    text-align: left;
+    font-size: 40px;
+    font-weight: lighter;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#title {
+    background-color: #1D1D1D;
+    color: white;
+    text-align: center;
+    padding: 40px 70px 40px 200px;
+}
+
+#responseheading { 
+    background-color: #1D1D1D;
+    color: white;
+}
+
+#articlebody { 
+    padding: 40px 400px 40px 200px;
+}
+
+#essence { 
+    padding: 20px 400px 100px 200px;
+    font-weight: bold;
+}
+
+#response { 
+    padding: 40px 400px 40px 400px;
 }
