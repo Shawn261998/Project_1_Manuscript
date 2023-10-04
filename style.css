@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;500&display=swap');
 
 body {
-    color: rgb(7, 0, 44);
+    color: rgb(0, 0, 0);
 }
+
+html { 
+    font-size: 112.5%;
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    color:rgb(202, 57, 57);
+  }
 
 h1 { 
     font-family: 'IBM Plex Sans', sans-serif;
@@ -12,31 +21,12 @@ h1 {
     margin-bottom: 70px;
 }
 
-.thin { 
-    font-weight: 100;
- }
-
-.author { 
-    text-align: left;
-    font-size: 32px;
-    padding: 40px 400px 40px 200px;
-}
-
-.subject {
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 38px;
-    font-weight: 100;
-}
-
-.essence {
-    font-weight:bold
-}
-
 p {
     font-family: 'IBM Plex Sans', sans-serif; text-align: left;
     font-size: 22px;
     font-weight: lighter;
     text-align: left;
+    justify-self: auto;
  }
 
 h2 { 
@@ -54,15 +44,55 @@ h3 {
     font-weight: 300;
 }
 
+ul {
+    padding: 20px;
+    font-family: 'IBM Plex Sans', sans-serif; text-align: left;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
 blockquote { 
     font-family: 'IBM Plex Sans', sans-serif;
     font-style: italic;
     text-align: left;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: lighter;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+aside { 
+
+    max-width: 35rem;
+    width: 30%;
+    font-weight: bold;
+    float: right;
+    padding: 40px ;
+    margin-left: auto;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+.thin { 
+    font-weight: 100;
+ }
+
+.author { 
+    text-align: left;
+    font-size: 32px;
+    padding: 10px;
+    margin: 190px;
+}
+
+.subject {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 38px;
+    font-weight: 100;
+}
+
+.essence {
+    font-weight:bold
 }
 
 #title {
@@ -78,14 +108,43 @@ blockquote {
 }
 
 #articlebody { 
-    padding: 40px 400px 40px 200px;
-}
-
-#essence { 
-    padding: 20px 400px 100px 200px;
-    font-weight: bold;
+    padding: 40px;
+    max-width: 40rem;
+    text-align: left;
+    margin-left: 160px;
+    margin-right: auto;
 }
 
 #response { 
-    padding: 40px 400px 40px 400px;
+    padding: 30px;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+#responseintro { 
+    text-align: left;
+    padding: 40px 600px 20px 200px;
+}
+
+footer { 
+    position: relative;
+}
+
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #1D1D1D;
+  bottom: 40px;
+  right: 50px;
+  padding: 15px;
+  border-radius: 50%;
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-size: 22px;
+}
+
